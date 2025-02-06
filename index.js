@@ -3,7 +3,7 @@ import { DOMParser, XMLSerializer } from "xmldom";
 
 // Sempre trocar o nome do talhão por "plotname" e o nome da fazenda por "farmname" no código abaixo;
 // Quando adicionar um arquivo .kml trocar o nome do arquivo na linha 103 e o nome do arquivo de saída na linha 104;
-//Baixar as dependencias com o comando "npm i","npm i xmldom" e "npm i fs"
+// Baixar as dependencias com o comando "npm i","npm i xmldom" e "npm i fs"
 
 /**
  * @param {string} filePath 
@@ -102,5 +102,5 @@ function processAndFixKML(filePath, outputFilePath) {
 }
 
 const filePath = "exemplo.kml";
-const outputFilePath = "./output/exemplo.kml";
+const outputFilePath = "./output/exemplo - Corrigido.kml";
 const duplicates = processAndFixKML(filePath, outputFilePath);
